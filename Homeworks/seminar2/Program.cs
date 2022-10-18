@@ -13,18 +13,18 @@ Console.WriteLine($"Second number of {RandomNumber} is {result}");
 */
 // Задача 2: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 /*
-int Number = Convert.ToInt32(Console.ReadLine());
-string NumberText = Convert.ToString(Number);
-
+Console.WriteLine("Input number ");
+int number = Convert.ToInt32(Console.ReadLine());
 {
-    if (NumberText.Length > 2)
-    Console.WriteLine("$third digit is " + NumberText[2]);
-    else 
+    if (number >=100)
     {
-      Console.WriteLine("$no third digit");  
+        Console.WriteLine(number.ToString()[2]);
+    }
+    else
+    {
+        Console.WriteLine($"-> no third number");
     }
 }
-Console.WriteLine("Input number");
 */
 // Задача 3: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным. 
 /*
@@ -39,4 +39,3 @@ int num = Convert.ToInt32(Console.ReadLine());
 bool Weekends = TrueOrFalse(num);
 Console.WriteLine(Weekends);
 */
-

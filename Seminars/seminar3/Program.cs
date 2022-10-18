@@ -74,7 +74,7 @@ Console.WriteLine(result);
 
 // Напишите программу которая принимает на вход число (N) и 
 //выдает на консоль квадраты чисел от 1 до N
-
+/*
 void QuadNumbers(int num)
 {
     int current = 1;
@@ -88,3 +88,4 @@ void QuadNumbers(int num)
 Console.WriteLine("Input number ");
 int num = Convert.ToInt32(Console.ReadLine());
 QuadNumbers(num);
+*/
