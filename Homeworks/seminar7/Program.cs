@@ -92,7 +92,7 @@ int[,] myArray = Create2DRandomArray(m,n,min,max);
 bool result = UserElement (myArray, a, b);
 Show2DArray(myArray);
 Console.WriteLine($"В данном массиве есть указанное вами число? -> {result}");
-
+*/
 // Задача 3. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 /* Например, задан массив:
 1 4 7 2
