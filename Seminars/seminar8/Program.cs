@@ -135,7 +135,7 @@ Show2DArray(myArray);
 */
 //Задание 3. Из двумерного массива целых чисел удалить строку и столбец, на пересечении которых расположен наименьший элемент.
 // то есть удалаем и строку и столбец в которой находится этот элемент
-
+/*
 int[,] Create2DRandomArray(int rows, int columns, int minValue, int maxValue)
 {
     int[,] newArray = new int[rows, columns];                   
@@ -204,3 +204,4 @@ Show2DArray(myArray);
 // 4 5 6 6  array[row2,j] row2 = 1
 // 7 8 9 5               
 // 5 7 3 9
+*/
